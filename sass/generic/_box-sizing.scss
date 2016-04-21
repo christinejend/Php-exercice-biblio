@@ -1,0 +1,18 @@
+/* Biblio
+	Chris J.
+ * styles.css - main stylesheet
+ * started at 12/04/2016
+ */
+ 
+/* box-sizing reset */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}

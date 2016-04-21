@@ -1,0 +1,25 @@
+/* Biblio
+  Chris J.
+ * styles.css - main stylesheet
+ * started at 12/04/2016
+ */
+
+ /*1. Settings - variables globales*/
+
+
+ /*2. Tools - Mixing globauc, functions & outils*/
+
+
+ /*3. Generic - Style de remise a zero (reset,normalize..)*/
+@import "generic/meyer-reset";
+@import "generic/box-sizing";
+
+ /*4. Base - Elements brutes*/
+
+ /*5. Objects - Elements de mise en forme non-cosmétique - taille et position*/
+
+ /*6. Components - Design des composants, morceaux d'UI*/
+ @import "components/nav";
+
+ /*7. Trumps - Styles spécifiques*/
+

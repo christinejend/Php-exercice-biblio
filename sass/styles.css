@@ -1,0 +1,284 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* Eric Meyer */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+a{
+	color: #5D2C1E;
+}
+body{
+	background-color: #FFFDDA;
+	margin: 1rem 10rem;
+	font-size: 1rem;
+	/*background: url(../img/livre.png) 2rem 1rem no-repeat;
+	background: cover;*/
+}
+
+.header__title, .content__title{
+	color:#5D2C1E;
+	font-size: 1.8rem;
+}
+.nav{
+	margin-left: 35.7rem;
+	font-size: 1.2rem;
+}
+.intro__img{
+	margin-left: 6rem;
+}
+
+.nav__index{
+	margin-left: 9rem;
+}
+.nav__elt{
+	display: inline-block;
+
+	padding: 1rem;
+	border-radius: 0.2rem;
+	
+}
+.content{
+	width: 70rem;
+	padding: 1rem;
+	margin: 0 auto;
+}
+.intro__text{
+	width: 40rem;
+	margin: 5rem auto;
+	background-color: rgba(255, 255, 255, 0.85);
+	position: relative;
+	bottom: 17rem;
+	color: #4A2218;
+	font-size: 1.2rem;
+	padding: 0.5rem;
+	border-radius: 15px;
+}
+.last__title{
+	font-size: 1.4rem;
+	color:#5D2C1E;
+	padding-right: 3rem;
+	margin-top: -3rem;
+	padding-bottom: 2rem;
+}
+.last__title2{
+	font-size: 1.4rem;
+	padding-bottom: 2rem;
+	color:#5D2C1E;
+	position: relative;
+	top: 2.5rem;
+	left: 15rem;
+}
+.one, .two, .three{
+	margin-left: 5rem;
+	border: 1px ridge #FFA07A;
+	margin-bottom: 3rem;
+	height: 21.5rem;
+
+
+}
+
+.last{
+	width: 48rem;
+	margin: 0 auto;
+	margin-top: -11rem;
+}
+.last__text{
+	padding-bottom: 0.5rem;
+	width: 25rem;
+	margin-top: 1rem;
+	padding-top: 0.5rem;
+}
+.last__content{
+	position: relative;
+	top: -16rem;
+	left: 15rem;
+	margin-right: 7rem;
+	margin-top: 1rem;
+}
+.last__img{
+	margin-left: 2.5rem;
+	margin-bottom: 1.5rem;
+}
+footer, footer a {
+	color: white;
+	background-color:#5D2C1E; 
+}
+footer{
+	height: 5rem;
+	margin-left: 2.5rem;
+	width: 70rem;
+}
+.social{
+	float: right;
+	margin-right: 12rem;
+	margin-top: -1rem;
+}
+.contact{
+	margin-left: 10rem;
+	margin-top: -1rem;
+}
+.webmaster{
+	margin-bottom: 3rem;
+}
+.booknav{
+	padding: 3rem;
+}
+.booknav__elt{
+	display: inline-block;
+	float: right;
+}
+.booknav-add{
+	background-color: #D15D84;
+	padding: 0.5rem;
+	width: 13rem;
+	border-radius: 1rem;
+}
+.booknav-cot{
+	background-color: #5AC2F5;
+	padding: 0.5rem;
+	width: 7rem;
+	border-radius: 1rem;
+	padding-right: 1rem;
+}
+.booknav__add-white{
+	color: white;
+}
+.booknav__add-black{
+	color: black;
+}
+.content__text{
+	width: 40rem;
+	margin-left: 3rem;
+	padding: 1rem 0 1.5rem 0;
+}
+.content__text1, .content__text2{
+	margin-left: 3rem;
+	padding-top: 1rem;
+ }
+ .content__nav{
+ 	margin-left: 3rem;
+ 	padding-bottom: 1rem;
+ }
+ .content__elt{
+ 	padding-top: 1rem;
+ }
+ .signUp{
+ 	float: right;
+ 	margin-top: -20.3rem;
+ 	margin-right: 11rem;
+ 	width : 25rem;
+ 	border: 1px ridge #FFA07A;
+ 	padding: 1rem;
+ 	padding-bottom: 5rem;
+ 	height: 15.3rem;
+ }
+ .signIn{
+
+ 	 margin-bottom: 5rem;
+ 	 margin-left: 7rem;
+ 	 border: 1px ridge #FFA07A;
+ 	 width: 25rem;
+ 	 padding: 1rem;
+ 	 padding-bottom: 5rem;
+
+ }
+ .signUp__text{
+ 	margin-top: -2rem;
+ }
+.signUp__title, .signIn__title{
+	margin-right: 3rem;
+	margin-bottom: 1.5rem;
+	padding: 0.5rem;
+}
+.button{
+	background-color: #008080;
+	border-radius: 50rem;
+	color: white;
+	position: relative;
+	top: 5rem;
+	left: 6rem;
+	padding: 0.5rem;
+}
+.signIn__one, .signIn__two, .signUp__text{
+	padding-top: 1rem;
+	margin-left: 2rem;
+}
+.signUp__button{
+	top: 3.5rem;
+}
+
+
+
+
+
+#toogle-nav:checked ~ ul{
+  transform: translateY(-300%) translateZ(0);
+}
+.nav__burger{
+  cursor: pointer;
+  text-decoration: underline;
+}
+#toogle-nav{
+	position: absolute;
+	bottom: 50rem;
+}
